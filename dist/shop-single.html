@@ -23,9 +23,45 @@
     <link id="mainStyles" rel="stylesheet" media="screen" href="css/styles.min.css">
     <!-- Modernizr-->
     <script src="js/modernizr.min.js"></script>
+    <script> 
+    	
+    <!--function GetURLParameter(sParam)
+    {
+        var sPageURL = window.location.search.substring(1);
+        alert(sPageURL);
+
+        var url = window.location.href;
+        alert(url);
+        
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) 
+        {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) 
+            {
+                return sParameterName[1];
+            }
+        }
+    }​
+    
+    function setURLParameter()
+    {
+    	var Product_Name = GetURLParameter('Product_Name');
+    	document.getElementById("Product_Name").innerHTML = Product_Name;
+    }
+    
+    
+    -->
+    
+    var yourvar='value';
+
+    document.getElementById('Product_Name').innerHTML = yourvar;
+    
+    </script>
   </head>
   <!-- Body-->
-  <body>
+  <body >
+  
     <!-- Off-Canvas Category Menu-->
     <div class="offcanvas-container" id="shop-categories">
       <div class="offcanvas-header">
@@ -541,7 +577,7 @@
       <div class="page-title">
         <div class="container">
           <div class="column">
-            <h1>Single Product</h1>
+            <h1>Single Product - <span id="Product_Name">ddd</span></h1>
           </div>
           <div class="column">
             <ul class="breadcrumbs">

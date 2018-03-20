@@ -23,9 +23,18 @@
     <link id="mainStyles" rel="stylesheet" media="screen" href="css/styles.min.css">
     <!-- Modernizr-->
     <script src="js/modernizr.min.js"></script>
+    <script src="jquery.js"></script> 
+    
+    <script>
+            $(function(){
+                $("#includedContent").load("header.html");
+            });
+        </script>
   </head>
   <!-- Body-->
   <body>
+      <div id="includedContent"></div>
+  
     <!-- Off-Canvas Category Menu-->
     <div class="offcanvas-container" id="shop-categories">
       <div class="offcanvas-header">
@@ -34,29 +43,29 @@
       <nav class="offcanvas-menu">
         <ul class="menu">
           <li class="has-children"><span><a href="#">Designer Nameplates</a><span class="sub-menu-toggle"></span></span>
-            <ul class="offcanvas-submenu">
+            <!--<ul class="offcanvas-submenu">
               <li><a href="#">Sneakers</a></li>
               <li><a href="#">Loafers</a></li>
               <li><a href="#">Boat Shoes</a></li>
               <li><a href="#">Sandals</a></li>
               <li><a href="#">View All</a></li>
-            </ul>
+            </ul>-->
           </li>
           <li class="has-children"><span><a href="#">Wooden Nameplates</a><span class="sub-menu-toggle"></span></span>
-            <ul class="offcanvas-submenu">
+            <!--<ul class="offcanvas-submenu">
               <li><a href="#">Sandals</a></li>
               <li><a href="#">Flats</a></li>
               <li><a href="#">Sneakers</a></li>
               <li><a href="#">Heels</a></li>
               <li><a href="#">View All</a></li>
-            </ul>
+            </ul>-->
           </li>
           <li class="has-children"><span><a href="#">Gift Voutures</a><span class="sub-menu-toggle"></span></span>
-            <ul class="offcanvas-submenu">
+            <!--<ul class="offcanvas-submenu">
               <li><a href="#">$50</a></li>
               <li><a href="#">$100</a></li>
               <li><a href="#">$200</a></li>
-            </ul>
+            </ul>-->
           </li>
         </ul>
       </nav>
@@ -238,9 +247,9 @@
     </div>
     <!-- Topbar-->
     <div class="topbar">
-      <div class="topbar-column"><a class="hidden-md-down" href="mailto:support@unishop.com"><i class="icon-mail"></i>&nbsp; contactus@nameplateworld.com</a><a class="hidden-md-down" href="tel:0426012583"><i class="icon-bell"></i>&nbsp; 0426012583</a><a class="social-button sb-facebook shape-none sb-dark" href="#" target="_blank"><i class="socicon-facebook"></i></a><a class="social-button sb-twitter shape-none sb-dark" href="#" target="_blank"><i class="socicon-twitter"></i></a><a class="social-button sb-instagram shape-none sb-dark" href="#" target="_blank"><i class="socicon-instagram"></i></a><a class="social-button sb-pinterest shape-none sb-dark" href="#" target="_blank"><i class="socicon-pinterest"></i></a>
+      <div class="topbar-column"><a class="hidden-md-down" href="mailto:support@unishop.com"><i class="icon-mail"></i>&nbsp; contactus@nameplateworld.com</a><a class="hidden-md-down" href="tel:0426012583"><i class="icon-bell"></i>&nbsp; 0426012583</a><a class="social-button sb-facebook shape-none sb-dark" href="https://www.facebook.com/nameplateworld/" target="_blank"><i class="socicon-facebook"></i></a><a class="social-button sb-twitter shape-none sb-dark" href="#" target="_blank"><i class="socicon-twitter"></i></a><a class="social-button sb-instagram shape-none sb-dark" href="#" target="_blank"><i class="socicon-instagram"></i></a><a class="social-button sb-pinterest shape-none sb-dark" href="https://www.pinterest.com.au/NameplateWorld/" target="_blank"><i class="socicon-pinterest"></i></a>
       </div>
-      <div class="topbar-column"><a class="hidden-md-down" href="#"><!--<i class="icon-download"></i>&nbsp;   Get mobile app</a>-->
+      <div class="topbar-column"><a class="hidden-md-down" href="#"><!--<i class="icon-download"></i>&nbsp;   Get mobile app--></a>
         <div class="lang-currency-switcher-wrap">
           <div class="lang-currency-switcher dropdown-toggle"><span class="language"><img alt="English" src="img/flags/AU.png"></span><span class="currency">$ AUD</span></div>
           <div class="dropdown-menu">
@@ -551,8 +560,8 @@
           <div class="col-md-4 col-sm-6">
             <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
                 <div class="inner">
-                  <div class="main-img"><img src="img/shop/categories/01.jpg" alt="Category"></div>
-                  <div class="thumblist"><img src="img/shop/categories/02.jpg" align="middle" alt="Category"><img src="img/shop/categories/03.jpg" align="middle" alt="Category"></div>
+                  <div class="main-img"><img src="img/NameplateWorld Designs July 2017/name plate NPW1062.jpg" alt="Category"></div>
+                  <div class="thumblist"><img src="img/NameplateWorld Designs July 2017/nameplate supplier NPW1025.jpg" align="middle" alt="Category"><br></br><img src="img/NameplateWorld Designs July 2017/designer name plate NPW1058.jpg" align="middle" alt="Category"></div>
                 </div></a>
               <div class="card-body text-center">
                 <h4 class="card-title">Designer Nameplates</h4>
@@ -563,8 +572,8 @@
           <div class="col-md-4 col-sm-6">
             <div class="card mb-30"><a class="card-img-tiles" href="shop-grid-ls.html">
                 <div class="inner">
-                  <div class="main-img"><img src="img/shop/categories/04.jpg" alt="Category"></div>
-                  <div class="thumblist"><img src="img/shop/categories/05.png" alt="Category"><img src="img/shop/categories/06.png" alt="Category"></div>
+                  <div class="main-img"><img src="img/NameplateWorld Designs July 2017/nameplate NPW1073.jpg" alt="Category"></div>
+                  <div class="thumblist"><img src="img/NameplateWorld Designs July 2017/wooden name plate NPW1016.jpg" alt="Category"><br></br><img src="img/NameplateWorld Designs July 2017/wooden name plate NPW1043.jpg" alt="Category"></div>
                 </div></a>
               <div class="card-body text-center">
                 <h4 class="card-title">Wooden Nameplates</h4>
@@ -639,10 +648,10 @@
           <!-- Product-->
           <div class="grid-item">
             <div class="product-card">
-              <div class="product-badge text-danger">22% Off</div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/09.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Rocket Dog</a></h3>
+              <div class="product-badge text-danger">22% Off</div><a class="product-thumb" href="shop-single.html"><br></br><br></br><img src="img/NameplateWorld Designs July 2017/modern name plate NPW1030.jpg" alt="Product"></a>
+              <h3 class="product-title"><a href="shop-single.html">Modern name plate NPW1030</a></h3>
               <h4 class="product-price">
-                <del>$44.95</del>$34.99
+                <del>$166.95</del>$134.99
               </h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
@@ -654,8 +663,8 @@
           <div class="grid-item">
             <div class="product-card">
                 <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star"></i>
-                </div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/03.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Oakley Kickback</a></h3>
+                </div><a class="product-thumb" href="shop-single.html"><br></br><img src="img/NameplateWorld Designs July 2017/name plate NPW1072.jpg" alt="Product"></a>
+              <h3 class="product-title"><a href="shop-single.html">Name plate NPW1072</a></h3>
               <h4 class="product-price">$155.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
@@ -665,9 +674,9 @@
           </div>
           <!-- Product-->
           <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/12.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Vented Straw Fedora</a></h3>
-              <h4 class="product-price">$49.50</h4>
+            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="img/NameplateWorld Designs July 2017/name plate NPW1062.jpg" alt="Product"></a>
+              <h3 class="product-title"><a href="shop-single.html">Name plate NPW1062</a></h3>
+              <h4 class="product-price">$99.50</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
                 <button class="btn btn-outline-primary btn-sm" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
@@ -678,8 +687,8 @@
           <div class="grid-item">
             <div class="product-card">
                 <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i>
-                </div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/11.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Top-Sider Fathom</a></h3>
+                </div><a class="product-thumb" href="shop-single.html"><br></br><br></br><img src="img/NameplateWorld Designs July 2017/nameplate supplier NPW1025.jpg" alt="Product"><br></br></a>
+              <h3 class="product-title"><a href="shop-single.html">Designer nameplate NPW1025</a></h3>
               <h4 class="product-price">$90.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
@@ -689,8 +698,8 @@
           </div>
           <!-- Product-->
           <div class="grid-item">
-            <div class="product-card"><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/04.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Waist Leather Belt</a></h3>
+            <div class="product-card"><a class="product-thumb" href="shop-single.html"><br></br><br></br><br></br><img src="img/NameplateWorld Designs July 2017/name plate NPW1060.jpg" alt="Product"><br></br></a>
+              <h3 class="product-title"><a href="shop-single.html">Modern name plate NPW1060</a></h3>
               <h4 class="product-price">$47.00</h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
@@ -701,10 +710,10 @@
           <!-- Product-->
           <div class="grid-item">
             <div class="product-card">
-              <div class="product-badge text-danger">50% Off</div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/01.jpg" alt="Product"></a>
-              <h3 class="product-title"><a href="shop-single.html">Unionbay Park</a></h3>
+              <div class="product-badge text-danger">50% Off</div><a class="product-thumb" href="shop-single.html"><br></br><br></br><br></br><img src="img/NameplateWorld Designs July 2017/name plate online NPW1012.jpg" alt="Product"><br></br></a>
+              <h3 class="product-title"><a href="shop-single.html">Designer nameplate NPW1012</a></h3>
               <h4 class="product-price">
-                <del>$99.99</del>$49.99
+                <del>$199.99</del>$98.99
               </h4>
               <div class="product-buttons">
                 <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist"><i class="icon-heart"></i></button>
@@ -824,12 +833,12 @@
               <!-- Contact Info-->
               <section class="widget widget-light-skin">
                 <h3 class="widget-title">Get In Touch With Us</h3>
-                <p class="text-white">Phone: 00 33 169 7720</p>
+                <p class="text-white">Phone: 0426012583</p>
                 <ul class="list-unstyled text-sm text-white">
                   <li><span class="opacity-50">Monday-Friday:</span>9.00 am - 8.00 pm</li>
                   <li><span class="opacity-50">Saturday:</span>10.00 am - 6.00 pm</li>
                 </ul>
-                <p><a class="navi-link-light" href="#">support@unishop.com</a></p><a class="social-button shape-circle sb-facebook sb-light-skin" href="#"><i class="socicon-facebook"></i></a><a class="social-button shape-circle sb-twitter sb-light-skin" href="#"><i class="socicon-twitter"></i></a><a class="social-button shape-circle sb-instagram sb-light-skin" href="#"><i class="socicon-instagram"></i></a><a class="social-button shape-circle sb-google-plus sb-light-skin" href="#"><i class="socicon-googleplus"></i></a>
+                <p><a class="navi-link-light" href="#">contactus@nameplateworld.com</a></p><a class="social-button shape-circle sb-facebook sb-light-skin" href="https://www.facebook.com/nameplateworld/"><i class="socicon-facebook"></i></a><a class="social-button shape-circle sb-twitter sb-light-skin" href="#"><i class="socicon-twitter"></i></a><a class="social-button shape-circle sb-instagram sb-light-skin" href="#"><i class="socicon-instagram"></i></a><a class="social-button shape-circle sb-google-plus sb-light-skin" href="#"><i class="socicon-googleplus"></i></a>
               </section>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -879,7 +888,8 @@
               <form class="subscribe-form" action="//rokaux.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;amp;id=1194bb7544" method="post" target="_blank" novalidate>
                 <div class="clearfix">
                   <div class="input-group input-light">
-                    <input class="form-control" type="email" name="EMAIL" placeholder="Your e-mail"><span class="input-group-addon"><i class="icon-mail"></i></span>
+                    <input class="form-control" type="email" 
+                    name="EMAIL" placeholder="Your e-mail"><span class="input-group-addon"><i class="icon-mail"></i></span>
                   </div>
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;" aria-hidden="true">
